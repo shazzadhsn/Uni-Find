@@ -87,7 +87,7 @@ export function AdminLoginPage({ onLogin, onBackClick }: AdminLoginPageProps) {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="admin@bubt.edu.bd"
+                  placeholder="Enter Admin Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
